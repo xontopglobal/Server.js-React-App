@@ -76,6 +76,7 @@ router.get("/favorites", async (req, res) => {
     res.status(401).json({ message: "Unauthorized" });
   }
 });
+https://www.themoviedb.org/settings/api#:~:text=941c562484a1fba49b62a4894a33b17e
 
 router.post("/favorites", async (req, res) => {
   const token = req.headers.authorization?.split(" ")[1];
